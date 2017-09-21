@@ -38,7 +38,7 @@ void setup() {
   // initialize neopixel library
   pixels.begin();
   // set brightness
-  pixels.setBrightness(255); // 1/3 brightness
+ // pixels.setBrightness(255); // 1/3 brightness
   // set initial time
   prevTime = millis();
 }
